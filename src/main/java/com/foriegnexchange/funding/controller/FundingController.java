@@ -25,8 +25,8 @@ public class FundingController {
 
     @PostMapping
     public FundingModel saveFund(@RequestBody FundingModel fund) throws InterruptedException {
-        Thread t = new Thread();
-        t.sleep(10000);
+       // Thread t = new Thread();
+      //  t.sleep(10000);
 //        try {
 //            Thread.sleep(5);}
 //        catch (InterruptedException e){
